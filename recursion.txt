@@ -1,0 +1,25 @@
+En el mundo dev hablamos de 2 tipos de recursion:
+estructural y funcional.
+
+funcional:
+
+cuando una funcion es recursiva? es cuando una funcion en su definicion se llama asi misma
+
+factorial(5)
+5 >1 => factorial(4) * 5
+factorial(4)
+4>1 => factorial(3) *4
+
+|  factorial(5)     |  
+|  factorial(4)     |
+|  factorial(3)     |
+|  factorial(2)     |
+|  factorial(1)     |
+
+
+recursividad  nivel estructural 
+lista = cabezaDeLaLista: Cola[] || []
+unaListaDeEnteros =  int: [int] || []
+
+[1,2,3] =? 
+1: [2,3] => 2: [3] => 3: [] 
